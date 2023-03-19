@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Outfit: ["Outfit"],
+        sans:  ["Outfit", "Inter", "system-ui", "Avenir", "Helvetica", "Arial", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
