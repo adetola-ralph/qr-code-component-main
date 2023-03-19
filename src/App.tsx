@@ -1,14 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { QrCode } from './components';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      Oreofe
+    <div className="App bg-[#D5E1EF] h-screen flex justify-center items-center">
+      <QrCode />
     </div>
   )
 }
